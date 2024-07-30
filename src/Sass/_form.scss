@@ -1,0 +1,29 @@
+.formCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        input{
+            border: none;
+            border-bottom: solid 2px black;
+            text-align: center;
+            padding: 8px;
+        }
+        .btn{
+            padding: 8px;
+            margin: 5px;
+            background-color: rgb(202, 202, 202);
+            &:hover{
+                background-color: rgb(156, 154, 154);
+            }
+        }
+    }
+}
+
+.checkOut{
+    color: rgb(83, 83, 83);
+}

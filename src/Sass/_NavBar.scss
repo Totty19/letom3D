@@ -1,0 +1,76 @@
+.NvBar {
+    grid-area: nav;
+    background: transparent;
+}
+
+.ConTitulo {
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .Tit{
+        display: flex;
+        color: rgb(39, 129, 39);
+        font-size: 52px;
+        list-style-type: none;
+        text-decoration: none;
+        transition: all 0.7s;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: none;
+        &:hover{
+            color: rgb(39, 129, 39);
+            transform: scale(1.05);
+            transition: all 0.6s;
+        }
+    }
+}
+
+.imgCart{
+    width: 44px;
+    margin-right: 2px;
+    a{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(164, 164, 164);
+        transition: all 0.6s;
+        &:hover{
+            color: rgb(226, 225, 225);
+            transition: all 0.6s;
+        }
+    }
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+    color: gray !important;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    font-size: 18px;
+    &:hover{
+        transition: 0.2s;
+        color: rgb(57, 57, 57) !important;
+        transform: scale(1.05);
+    }
+    .icon{
+        padding: 4px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+

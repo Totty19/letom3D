@@ -1,0 +1,10 @@
+export {Footer, Header, NavBar} from './Common'
+export {ContacUbic,Nosotros,Dashboard,Product,Tasks,Task,Cart } from '../Pages'
+export {ItemCount} from './itemCount'
+export {ItemListCont} from './ItemListCont'
+export {ItemList} from './ItemList'
+export {ItemDetailCont} from './itemDetailCont'
+export {CartItem} from './cart-item'
+export {Item} from './Item'
+export {ItemDetail} from './itemDetail'
+

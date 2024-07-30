@@ -1,0 +1,112 @@
+.ContUbic{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+    img{
+        position: absolute;
+        z-index: -10;
+        width: 650px;
+        height: 500px;
+        opacity: 20%;
+        border-radius: 8%;
+    }
+    @media (max-width:1100px) {
+        img{
+            width: 90%;
+            height: 100%;
+        }
+        .Iframe{
+            width: 100%;
+        }
+    }
+    .fondoGps{
+        position: absolute;
+        width: 220px; 
+        opacity: 100%;
+        margin-right: 620px;
+    }
+    @media (max-width:800px) {
+        .fondoGps{
+            margin:50%;
+            margin-top: 450px;
+        }
+    }
+
+}
+
+.boxCont{
+    width: 600px;
+    .ContRedes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        .Redes{
+            font-size: 50px;
+            color: rgb(39, 129, 39);
+            transition: all 0.4s;
+            &:hover{
+                transform: scale(1.08);
+                transition: all 0.4s;
+            }
+        }
+    }
+    .cajaCont{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .lbl{
+            width: 100%;
+            margin: 6px;
+            color: black;
+            input{
+                width: 100%;
+                text-align: center;
+                border: none;
+                padding: 9px;
+                background: rgba(255, 255, 255, 0.84);
+                border-radius: 5px;
+                border-bottom: solid black 2px;
+            }
+        }
+        .text{
+            resize: none;
+            border: none;
+            border-radius: 5px;
+            height: 150px;
+            text-align: center;
+            width: 100%;
+            border-bottom: solid black 2px;
+            padding: 9px;
+            background: rgba(255, 255, 255, 0.84);
+            color: black;
+        }
+        .ContBtn{
+            display: flex;
+            margin: 10px;
+            .btn{
+                padding: 12px;
+                transition: all 0.6s;
+                margin: 8px;
+                background-color: rgba(38, 37, 37, 0.53);
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    transition: all 0.6s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:700px) {
+    .boxCont{
+        width: 80%;
+    }
+}
+

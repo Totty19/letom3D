@@ -1,0 +1,7 @@
+export {Nosotros} from './Nosotros'
+export {Dashboard} from './dashboard'
+export {ContacUbic} from './contacto-ubicacion'
+export {Product} from './productos'
+export {Tasks} from './tasks'
+export {Task} from './task-detail'
+export {Cart} from './cart'
