@@ -11,10 +11,10 @@ const ContacUbic = () => {
                 <div class="boxCont">
                     <h2>Contactanos aqui!</h2>
                     <div className='ContRedes'>
-                        <Link className='Redes' to='https://w.app/3PMyhV'><FontAwesomeIcon icon={faWhatsapp} /></Link>
+                        <Link className='Redes' to='https://wa.link/chc8ei'><FontAwesomeIcon icon={faWhatsapp} /></Link>
                         <Link className='Redes' to='https://www.instagram.com/letom.3d/'><FontAwesomeIcon icon={faInstagram} /></Link>
                     </div>
-                    <form action="https://formsubmit.co/tomiexe16@gmail.com" method="post" class="cajaCont">
+                    <form action="https://formsubmit.co/letom.3d@gmail.com" method="post" class="cajaCont">
                         <label class="lbl">
                             <input type="email" name="Email" required placeholder="Escriba su email"/>
                         </label>

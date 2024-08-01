@@ -25,7 +25,6 @@ const ItemCount = ({stock, initial, onAdd}) => {
                     <FontAwesomeIcon icon={faCircle} className="cirBordo"/>
                     <FontAwesomeIcon icon={faCircle} className="cirCeleste"/>
                     <FontAwesomeIcon icon={faCircle} className="cirVerd"/>
-                    <FontAwesomeIcon icon={faCircle} className="cirVerObsc"/>
                 </h5>
             </div>
             {/* <div className="contBtn">
