@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letom3d/static/css/main.950db5b8.css",
-    "main.js": "/letom3d/static/js/main.c6e2c3bd.js",
+    "main.js": "/letom3d/static/js/main.d9187849.js",
     "static/media/correo.png": "/letom3d/static/media/correo.cd19bc09c109c425fb47.png",
     "static/media/logoUbic.png": "/letom3d/static/media/logoUbic.76eb43ec4fa4d091bfe7.png",
     "static/media/letom3d.jpeg": "/letom3d/static/media/letom3d.737aabe7caefe790a8af.jpeg",
@@ -9,10 +9,10 @@
     "static/media/aproved.svg": "/letom3d/static/media/aproved.e1e09fbf8af19381cf785bb96cb868a7.svg",
     "index.html": "/letom3d/index.html",
     "main.950db5b8.css.map": "/letom3d/static/css/main.950db5b8.css.map",
-    "main.c6e2c3bd.js.map": "/letom3d/static/js/main.c6e2c3bd.js.map"
+    "main.d9187849.js.map": "/letom3d/static/js/main.d9187849.js.map"
   },
   "entrypoints": [
     "static/css/main.950db5b8.css",
-    "static/js/main.c6e2c3bd.js"
+    "static/js/main.d9187849.js"
   ]
 }
